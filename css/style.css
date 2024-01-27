@@ -1,0 +1,36 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+#gameboard {
+    background-color: #96c801;
+    height: 90vmin;
+    width: 90vmin;
+    display: grid;
+    grid-template-rows: repeat(21, 1fr);
+    grid-template-columns: repeat(21, 1fr);
+}
+
+.snake {
+    background-color: #5e7903;
+    border: 1px solid black;
+}
+
+.snakeHead {
+    background-color: #324102;
+    border: 1px solid black;
+}
+
+.food {
+    background-color: #933226;
+    border: 1px solid black;
+}
+
